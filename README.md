@@ -57,3 +57,23 @@ No sabía si al clonar el repositorio, este se enlazaría a la carpeta en la que
 </li>
 </ol>
 </p>
+
+## Observaciones
+<ul>
+<li>Cada vez que hagas un commit en una <b>rama</b> nueva, al pushear a remoto debes especificar su nombre (por ejemplo: <i> git push --set-upstream origin feature/help-page</i>), en vez de solamente git <b>push</b></li>
+<br>
+<li>
+Al hacer <b>commits</b>, se debe usar una buena nomenclatura, que sea comprensible y descriptiva, aunque lo más resumida posible. Si un compañero observa nuestros commits deberían de ser capaces de entenderlos (al menos en general).
+</li>
+<br>
+<li>
+Al hacer <b>merge</b> debes estar en la rama que está desactualizada y mergear la que tenga los commits (/cambios) que te faltan.
+</li>
+<br>
+<li>
+Cuando haces <b>fetch</b>, tu local se actualiza, para saber si le falta algún commit del remoto. Si encuentra commits por descargar y estás listo, los podrás descargar en tu local haciendo git <b>pull</b>.
+</li>
+<br>
+<li>
+Si has hecho algún cambio <b>directamente desde GitHub </b>, deberás actualizar tu local, ya que solo existirán en el remoto y no en tu local. Para actualizarlos tendrás que hacer <b>fetch</b> y <b>pull</b>, al hacer eso obtendrás todos los cambios no actualizados del remoto al local.
+</li>
